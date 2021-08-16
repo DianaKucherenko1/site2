@@ -1,0 +1,44 @@
+.contact{
+    padding: 20px;
+    background-color: $main-color;
+    .col-md-9{
+        p{
+            font-family: 'Raleway', sans-serif;
+            color: $main-color-f;
+            font-weight: bolder;
+            padding-top: 10px;
+        }
+    }
+
+    .col-md-3{
+        justify-content: right;
+        button{
+            background-color: $main-color-f;
+            color:#606060 ;
+            border-radius: 5px;
+            border-color: $main-color-f;
+            width: 150px;
+            height: 40px;
+        }
+    }
+
+    .row{
+
+      .col-md-4{
+        
+        
+        img{
+            width: 100%;
+        }
+        .info-text{
+            justify-content: center;
+            text-align: center;
+
+           button{
+               background-color: $main-color;
+           
+           }
+        }
+      }
+    }
+}

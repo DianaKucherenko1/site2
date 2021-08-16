@@ -1,0 +1,103 @@
+.info-facts{
+    background-color:#383838 ;
+    padding-top: 75px;
+    padding-bottom: 90px;
+    .row{
+        .col-md-12{
+            justify-content: center;
+
+            h3{
+                color: $main-color-f;
+                font-family: 'Raleway', sans-serif;
+                padding-right: 15px;
+                padding-left: 15px; 
+                span{
+                    color: $main-color;
+                }
+            }
+    
+            img{
+                height: 15px;
+                width: 30px;
+                margin-top: 8px;
+            }
+        }
+        .col-md-12{
+            p{
+                font-family: 'Raleway', sans-serif;
+                color: $main-color-sec; 
+                text-align: center;
+                padding-top: 20px;
+            }
+        }
+
+    }
+    .row{
+        .col-md-3{
+            justify-content: center;
+            text-align: center;
+            
+            .digital-block{
+                display: flex;
+                position: relative;
+                justify-content: center;
+
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    transform: rotate(45deg);
+                    background: $main-color-sec;
+                    border-radius: 3px;
+                    position: absolute;
+                    top: 50%;
+                }
+                
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    transform: rotate(45deg);
+                    background: $main-color-sec;
+                    border-radius: 3px;
+                    position: absolute;
+                    top: 50%;
+                }
+
+                &:before{
+                    left: 50px;
+                }
+
+                &:after{
+                    right: 50px;
+                }
+                &:hover{
+                    &:before , &:after {
+                    background:$main-color ;
+                    }
+                }
+
+                h2{
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 100px;
+                    color: #e4e4e4;
+                    
+                }
+
+                
+            }
+            p{
+                color:$main-color-sec;
+            }
+
+            svg{
+                padding-bottom: 15px;
+                color: $main-color;
+            }
+
+
+        }
+    }
+}

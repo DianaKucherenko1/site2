@@ -1,0 +1,95 @@
+.team{
+    padding-top: 80px;
+    padding-bottom: 109px;
+    .row{
+        .col-md-12{
+            justify-content: center;
+
+            h3{
+                color: $main-color;
+                font-family: 'Raleway', sans-serif;
+                padding-right: 15px;
+                padding-left: 15px; 
+                font-weight: bolder;
+                span{
+                    color: black;
+                }
+            }
+    
+            img{
+                height: 15px;
+                width: 30px;
+                margin-top: 8px;
+            }
+        }
+        .col-md-12{
+            p{
+                font-family: 'Raleway', sans-serif;
+                color: $main-color-sec; 
+                text-align: center;
+                padding-top: 20px;
+            }
+        }
+
+    }
+    .row-sec{
+        padding-top: 50px;
+        .col-md-3{
+            padding-right: 28px ;
+            .images{
+                text-align: center;
+                img{
+                    width: 100%;
+                }
+            }
+            .info-text{
+                text-align: center;
+                button{
+                    margin-top: -27px;
+                    margin-bottom: 13px;
+                    background-color: $main-color;
+                    border-color: $main-color;
+                }
+                h6{
+                    font-size: $font-sm-sec;
+                    padding-bottom: 5px;
+                }
+                .mail {
+                  text-align: center;
+                  justify-content: center;
+                  padding-bottom: 5px;
+                  svg{
+                     color:$color-aa ;
+                  }
+
+                  p{
+                    color:$color-aa ;
+                    font-size: 11px; 
+                    margin-left: 5px;
+                  }
+
+                }
+                .phone{
+                    text-align: center;
+                    justify-content: center;
+
+                    svg{
+                        color:$color-aa ;
+                     }
+   
+                     p{
+                       color:$color-aa ;
+                       font-size: 11px; 
+                       margin-left: 5px;
+
+                     }
+   
+
+
+
+                }
+            }
+        }
+    }
+
+}

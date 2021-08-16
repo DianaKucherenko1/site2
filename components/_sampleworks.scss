@@ -1,0 +1,46 @@
+.sampleworks{
+    padding-top: 80px;
+    padding-bottom: 107px;
+
+    .heading-first{
+        justify-content: center;
+        h3{
+
+            font-family: 'Raleway', sans-serif;
+            padding-right: 15px;
+            padding-left: 15px; 
+            color: black;
+            span{
+                color: $main-color ;
+            }
+        }
+        
+        img{
+            height: 15px;
+            width: 30px;
+            margin-top: 8px;
+        }
+    }
+    p{
+        font-family: 'Raleway', sans-serif;
+        color: $main-color-sec; 
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 51px;
+    }
+    .row 
+   img{
+       width: 100%;
+   }
+    
+       
+    .button-big{
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+      button{
+        background-color: $main-color;
+        width: 70%;
+      }
+    }
+}

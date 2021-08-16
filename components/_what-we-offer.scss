@@ -1,0 +1,125 @@
+.what-we-offer{
+    padding-top: 80px;
+    .row{
+        .col-md-12{
+            justify-content: center;
+
+            h3{
+                color: #383838;
+                font-family: 'Raleway', sans-serif;
+                padding-right: 15px;
+                padding-left: 15px; 
+                font-weight: bolder;
+                span{
+                    color: $main-color;
+                }
+            }
+    
+            img{
+                height: 15px;
+                width: 30px;
+                margin-top: 8px;
+            }
+        }
+        .col-md-12{
+            p{
+                font-family: 'Raleway', sans-serif;
+                color: $main-color-sec; 
+                text-align: center;
+                padding-top: 20px;
+            }
+        }
+
+    }
+
+    
+
+    .info-item{
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 105px;
+        .col-md-4{
+            h4{
+                font-family: 'Raleway', sans-serif;
+                font-weight: bolder;
+                font-size: $font-md-sec;
+                color: #606060;
+
+            }
+
+            p{
+                font-family: 'Raleway', sans-serif;
+                font-size: $font-sm-sec;
+                color: $main-color-sec;
+
+            }
+
+            button{
+              background-color:  $color-v;  
+              color: $main-color-sec;
+              border-color: #dedede ;
+              font-weight: bolder;
+              font-size: 11px;
+            }
+        
+            &:hover{
+                button{
+                    background: $main-color;
+                    color: $color-v;
+                    border-color: $main-color;
+                }
+
+                .icon-first , .icon-sec , .icon-th{
+                    background: $main-color;
+                }
+            }
+        
+
+
+
+
+          
+
+         
+
+           .icon-first{
+            height: 100px;
+            width: 100px;
+            border: none;
+            border-radius: 50%;
+            background-color: #383838;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 150px;
+            margin-bottom: 20px;
+           }
+
+           .icon-sec{
+            height: 100px;
+            width: 100px;
+            border: none;
+            border-radius: 50%;
+            background-color: $color-bl;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 150px;
+            margin-bottom: 20px;
+           }
+
+           .icon-th{
+            height: 100px;
+            width: 100px;
+            border: none;
+            border-radius: 50%;
+            background-color: $color-bl;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 150px;
+            margin-bottom: 20px;
+           }
+
+
+        }
+    }
+}

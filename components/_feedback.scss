@@ -1,0 +1,21 @@
+.feedback{
+    padding-top: 82px;
+    padding-bottom: 82px;
+    background-image: url(../images/stili-kart-seriy.jpg);
+    .col-md-4{
+        background-color: #f9f9f9;
+        .mb-3{
+            input{
+                margin-top: 19px;
+            }
+        }
+        button{
+            margin-bottom: 20px;
+            background-color: $main-color;
+            border-color: $main-color;
+            font-weight: bolder;
+            font-size: $font-sm-sec;
+
+        }
+    }
+}

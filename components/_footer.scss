@@ -1,0 +1,22 @@
+footer{
+    background-color:$main-color-th ;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    .col-md-12{
+        text-align: center;
+        a{
+            text-decoration: none;
+            h5{
+                font-size: $font-sm-sec;
+                color:#cccccc;
+                font-family: 'Raleway', sans-serif;
+                font-weight: bolder;
+
+                
+            }
+        }
+       
+          
+        
+    }
+}
